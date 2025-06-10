@@ -1,6 +1,9 @@
 # Emotion-Driven-Poetry-Generation-using-AI-and-EA
 
-This project is a backend web application built using Flask that generates short poems based on user-provided emotions and situations. It uses Google’s Generative AI (Gemini API) for initial poem generation and applies evolutionary algorithms to refine poems based on rhyme, syllable count, and emotional accuracy. Each poem is evaluated, stored, and further optimized using user feedback.
+This project is a backend web application built using Flask that generates short poems based on user-provided emotions and situations. It leverages Google’s Generative AI (Gemini API) for initial poem creation and applies evolutionary algorithms to refine poems based on rhyme, syllable structure, and emotional relevance. Each generated poem is evaluated and stored in a local database, and further improved through user feedback across iterations.
+
+Due to GitHub file size constraints, only the main application file (app.py) has been uploaded to the repository. However, the original project includes multiple essential components such as database scripts, utility files, and environment configurations used in the full working setup. A detailed breakdown of the original directory is provided below for context.
+
 
 🛠 Tools & Technologies Used
 1. Programming Language: Python 3.10.13
