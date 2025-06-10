@@ -28,7 +28,7 @@ nltk.download('punkt')
 load_dotenv()
 
 # Configure the Generative AI API
-genai.configure(api_key='AIzaSyAIeNjKbXS5Od015xBjo86HtgJDulb-gMk')
+genai.configure(api_key='Google API Key')
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
 # Setup evolutionary algorithm components
